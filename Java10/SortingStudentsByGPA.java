@@ -81,9 +81,9 @@ public class SortingStudentsByGPA {
     public static void main(String[] args) {
         Student[] students_1 = new Student[3];
         Comparator<Student> comparator = new sortingStudentsByGPA();
-        students_1[0] = new Student("Tuan", "Mai", "Game", 2, "ИКБО-33-21", 5);
+        students_1[0] = new Student("Hung", "Mai", "Game", 2, "ИКБО-08-21", 5);
         students_1[1] = new Student("Vinh", "Pham", "Web", 2, "ИКБО-30-21", 4);
-        students_1[2] = new Student("Vinh", "Nghiem", "AI", 2, "ИКБО-04-21", 3);
+        students_1[2] = new Student("Vinh", "Nghiem", "AI", 2, "ИКБО-12-21", 3);
         System.out.println("\nArray before quick sorting:");
         for (int i = 0; i < 3; i++)
             System.out.println(students_1[i]);
@@ -92,9 +92,9 @@ public class SortingStudentsByGPA {
         for (int i = 0; i < 3; i++)
             System.out.println(students_1[i]);
         Student[] students_2 = new Student[3];
-        students_2[0] = new Student("Bang", "Nguyen", "Mobile", 2, "ИКБО-33-21", 2);
+        students_2[0] = new Student("Bang", "Nguyen", "Mobile", 2, "ИКБО-02-21", 2);
         students_2[1] = new Student("Thuong", "Pham", "Web", 2, "ИКБО-30-21", 1);
-        students_2[2] = new Student("Tinh", "Nguyen", "AI", 2, "ИКБО-04-21", 0);
+        students_2[2] = new Student("Tinh", "Nguyen", "AI", 2, "ИКБО-09-21", 0);
         System.out.println("\nArray before merge sorting:");
         for (int i = 0; i < 3; i++)
             System.out.println(students_2[i]);
