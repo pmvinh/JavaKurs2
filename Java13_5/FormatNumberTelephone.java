@@ -13,7 +13,7 @@ public class FormatNumberTelephone {
     }
 
     public static void main(String[] args) {
-        String phone = "89998657010";
+        String phone = "89996723252";
         System.out.println(format(phone));
     }
 }
