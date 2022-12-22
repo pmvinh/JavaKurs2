@@ -28,7 +28,7 @@ public class Student {
 
     public Student(int year, int month, int day)
     {
-        this("Mai", "Tuan", "Game",2,"IKBO-33-21",5,year,month,day);
+        this("Pham", "Vinh", "Web",2,"IKBO-30-21",5,year,month,day);
     }
 
 
@@ -59,4 +59,3 @@ public class Student {
         System.out.println(student.toString(typeDate));
     }
 }
-
