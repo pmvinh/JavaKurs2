@@ -7,7 +7,7 @@ import java.io.*;
 public class task_6 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        String fileName = "Киев Нью-Йорк Амстердам Вена Мельбурн";
+        String fileName = "Kiev New-Yourk Amsterdam Vena Moscow";
         System.out.println("String: " + fileName);
         String [] arr = fileName.split(" ");
         getLine(0,arr);
