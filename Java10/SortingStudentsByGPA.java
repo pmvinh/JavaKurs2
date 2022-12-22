@@ -92,9 +92,9 @@ public class SortingStudentsByGPA {
         for (int i = 0; i < 3; i++)
             System.out.println(students_1[i]);
         Student[] students_2 = new Student[3];
-        students_2[0] = new Student("Linh", "Mai", "Mobile", 2, "ИКБО-33-21", 2);
-        students_2[1] = new Student("Hoang", "Van", "Web", 2, "ИКБО-30-21", 1);
-        students_2[2] = new Student("Bang", "Tran", "AI", 2, "ИКБО-04-21", 0);
+        students_2[0] = new Student("Bang", "Nguyen", "Mobile", 2, "ИКБО-33-21", 2);
+        students_2[1] = new Student("Thuong", "Pham", "Web", 2, "ИКБО-30-21", 1);
+        students_2[2] = new Student("Tinh", "Nguyen", "AI", 2, "ИКБО-04-21", 0);
         System.out.println("\nArray before merge sorting:");
         for (int i = 0; i < 3; i++)
             System.out.println(students_2[i]);
